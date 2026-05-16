@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react"
 import Top from "./Top"
 
-// Adicionar a lógica de diminuir tamanho da fontee tamanho dos ícones
+// Adicionar a lógica de diminuir tamanho da fonte tamanho dos ícones
 // localStorage só armazena strings! não sabia
 export default function Settings () {
     const [size, setSize] = useState(() => {
